@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.green-text{
+    color: green;
+}
+
+.red-text{
+    color: red;
+}
+
+
+.user-form{
+    margin-top: 70px;
+}
+.user-form h1{
+    text-align: center;
+}
+
+.user-form button{
+}
+
+.user-form-butons{
+    display: flex;
+    justify-content: center;
+}
+.user-form-butons button{
+    margin: 10px;
+}
+
+
+.registration-and-login-form{
+    margin: 30px 35%;
+}
+.registration-and-login-form .registration-form{
+   
+}
+.registration-and-login-form .registration-form h2{
+    text-align: center;
+}
+.registration-and-login-form .registration-form input{
+    margin: 5px 0px;
+}
+
+.registration-and-login-form .login-form{
+    display: none;
+}
+.registration-and-login-form .login-form h2{
+    text-align: center;
+}
+
+.registration-and-login-form .login-form input{
+    margin: 5px 0px;
+}
+
+
+/* Password box with eye icon */
+.single-input-field{
+    position: relative;
+}
+.single-input-field input{
+    padding-right: 30px;
+}
+.single-input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    opacity: .9;
+}
+
+/* minimum 8 characters ruiwuired in the input box */
+.registration-form p{
+    font-size: 14px;
+    margin-top: -5px;
+    color: red;
+    display: none;
+}
